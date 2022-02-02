@@ -1,15 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: aquamarine;
+  background-color: rgb(190, 228, 237);
   color: #fff;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
+    flex-direction: column;
 }
 
 .genre-column {
@@ -17,3 +16,5 @@ body {
   flex-direction: column;
   text-align: center;
 }
+
+
